@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riskified.SDK.Sample", "Riskified.SDK.Sample\Riskified.SDK.Sample.csproj", "{85E693D1-23B2-470C-81B9-F97B983E92AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riskified.SDK", "Riskified.SDK\Riskified.SDK.csproj", "{1BD71C22-04AD-4520-A331-C6B3E3BB7793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riskified.SDK.Core", "Riskified.SDK.Core\Riskified.SDK.Core.csproj", "{D853A02D-E605-48AC-A259-7BC4ACFC3DC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{1BD71C22-04AD-4520-A331-C6B3E3BB7793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD71C22-04AD-4520-A331-C6B3E3BB7793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD71C22-04AD-4520-A331-C6B3E3BB7793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D853A02D-E605-48AC-A259-7BC4ACFC3DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D853A02D-E605-48AC-A259-7BC4ACFC3DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D853A02D-E605-48AC-A259-7BC4ACFC3DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D853A02D-E605-48AC-A259-7BC4ACFC3DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {650F411A-56B1-440C-B00E-AA22E348BCF7}
 	EndGlobalSection
 EndGlobal
