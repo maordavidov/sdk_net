@@ -215,3 +215,4 @@ pip-log.txt
 .mr.developer.cfg
 Riskified.SDK.Sample/App.config
 *.ide
+packages*
